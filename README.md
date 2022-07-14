@@ -19,3 +19,8 @@ Using my knowledge of JavaScript and Leaflet.js, I add a third map style ("Outdo
 
 ![image](https://user-images.githubusercontent.com/102322707/179089119-c3dad8cc-f33a-418b-a5f4-b769517591ed.png)
 
+Data Sources: challenge_logic.js, index.html, style.css, config.js
+
+Software: Visual Studio Code
+
+Also: JavaScript, Leaflet.js, Mapbox, HTML/CSS, and Chrome Developer Tools
