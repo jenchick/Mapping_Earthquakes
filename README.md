@@ -1,26 +1,21 @@
 # Mapping_Earthquakes
 Mapping Earthquakes with JavaScript &amp; APIs
 
-The purpose of this project is to visually show the differences between the magnitudes of earthquakes all over the world for the last seven days.
-To complete this project, use a URL for GeoJSON earthquake data from the USGS website and retrieve geographical coordinates and the magnitudes of earthquakes for the last seven days. Then add the data to a map.
+The purpose of this project was to visually show the differences between the magnitudes of earthquakes all over the world for the last seven days.
+In order to accomplish this project, a URL for GeoJSON earthquake data from the USGS website was used to retrieve geographical coordinates and the magnitudes of earthquakes for the last seven days. I also used the Leaflet library to plot the data on a Mapbox map through an API request and created interactivity for the earthquake data.
 
-Approach
-Your approach will be to use the JavaScript and the D3.js library to retrieve the coordinates and magnitudes of the earthquakes from the GeoJSON data. You'll use the Leaflet library to plot the data on a Mapbox map through an API request and create interactivity for the earthquake data.
-
-Now that you have an overview of the project plan, let's set up a Mapbox account and get the API token you'll need to create geographical maps.
-
-Challenge: Basil and Sadhana like how you created your earthquake map with two different maps and the earthquake overlay. Now, Basil and Sadhana would like to see the earthquake data in relation to the tectonic plates’ location on the earth, and they would like to see all the earthquakes with a magnitude greater than 4.5 on the map, and they would like to see the data on a third map.
 Deliverable 1: Add Tectonic Plate Data
-Using your knowledge of JavaScript, Leaflet.js, and geoJSON data, you’ll add tectonic plate data using d3.json(), add the data using the geoJSON() layer, set the tectonic plate LineString data to stand out on the map, and add the tectonic plate data to the overlay object with the earthquake data.
+Using my knowledge of JavaScript, Leaflet.js, and geoJSON data, I added tectonic plate data using d3.json(), added the data using the geoJSON() layer, set the tectonic plate LineString data to stand out on the map, and added the tectonic plate data to the overlay object with the earthquake data.
 
 ![image](https://user-images.githubusercontent.com/102322707/179074576-d6cc1f80-7a4c-4af9-85d2-fe814a1e931a.png)
 
-
-
-
-
 Deliverable 2: Add Major Earthquake Data
-Using your knowledge of JavaScript, Leaflet.js, and geoJSON data, you’ll add major earthquake data to the map using d3.json(). You'll also add color and set the radius of the circle markers based on the magnitude of earthquake, and add a popup marker for each earthquake that displays the magnitude and location of the earthquake using the GeoJSON layer, geoJSON().
+Using my knowledge of JavaScript, Leaflet.js, and geoJSON data, I added major earthquake data to the map using d3.json(). I added different colors and set the radius of the circle markers based on the magnitude of earthquake, and added a popup marker for each earthquake that displays the magnitude and location of the earthquake using the GeoJSON layer, geoJSON().
+
+![image](https://user-images.githubusercontent.com/102322707/179089463-64252c41-45d8-4417-82ed-93ecdf00dbc6.png)
 
 Deliverable 3: Add an Additional Map
-Using your knowledge of JavaScript and Leaflet.js add a third map style to your earthquake map.
+Using my knowledge of JavaScript and Leaflet.js, I add a third map style ("Outdoors) to my earthquake map.
+
+![image](https://user-images.githubusercontent.com/102322707/179089119-c3dad8cc-f33a-418b-a5f4-b769517591ed.png)
+
